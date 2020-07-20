@@ -1,4 +1,5 @@
-# Shell Script useful special variables
+# Shell
+## Shell Script useful special variables
 | Variable | Description |
 | ------ | ------ |
 | $0 | The filename of the current script. |
