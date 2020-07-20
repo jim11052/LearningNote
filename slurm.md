@@ -1,7 +1,7 @@
 # Slurm
 ## sacctmgr
 
-### QOS
+#### QOS
 ```sh
 # show slurm accounting qos
 $ sacctmgr show qos format=name,MaxJobsAccruePerAccount,MaxSubmitJobsPerAccount
