@@ -10,4 +10,10 @@ $ sacctmgr modify qos [qos name] set MaxJobsAccruePerAccount=[number]
 ```
 
 # Reference
-[Slurm Workload Manager]: <https://slurm.schedmd.com/documentation.html>
+[Slurm Workload Manager][SWM]
+
+
+
+
+[//]:# References
+[SWM]: <https://slurm.schedmd.com/documentation.html>
