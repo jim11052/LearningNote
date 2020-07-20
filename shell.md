@@ -11,7 +11,7 @@
 | $? | The exit status of the last command executed. |
 | $! | The process ID of the last background command. |
 | $_ | The last argument of the previous command |
-| `> /dev/null 2>&1` | `2` refers to the second file descriptor of the process, i.e. stderr.  `>` means redirection. `&1` means the target of the redirection should be the same location as the first file descriptor, i.e. stdout. |
+| > /dev/null 2>&1 | `2` refers to the second file descriptor of the process, i.e. stderr.  `>` means redirection. `&1` means the target of the redirection should be the same location as the first file descriptor, i.e. stdout. |
 
 # Reference
 [LINUX SHELL PROGRAMMING : SPECIAL VARIABLES][SV]
