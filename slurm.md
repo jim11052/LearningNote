@@ -15,5 +15,5 @@ $ sacctmgr modify qos [qos name] set MaxJobsAccruePerAccount=[number]
 
 
 
-[//]:# References
+
 [SWM]: <https://slurm.schedmd.com/documentation.html>
