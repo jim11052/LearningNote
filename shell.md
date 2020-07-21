@@ -1,11 +1,11 @@
 # Shell
 ## Commomly used commands
 netstat - Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
- - t  TCP
- - u  UDP
- - l  Show only listening sockets. 
- - n  Unless the --numeric (-n) option is specified, the socket address is resolved to its canonical host name (FQDN), and the port number is translated into the         corresponding service name.
- - p  Show the PID and name of the program to which each socket belongs.
+| -t | TCP |
+| -u | UDP |
+| -l | Show only listening sockets. |
+| -n | Unless the --numeric (-n) option is specified, the socket address is resolved to its canonical host name (FQDN), and the port number is translated into the          corresponding service name. |
+| -p | Show the PID and name of the program to which each socket belongs. |
 ```sh
 netstat -tulnp
 ```
