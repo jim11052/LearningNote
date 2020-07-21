@@ -1,6 +1,8 @@
 # Shell
 ## Commomly used commands
 netstat - Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
+| Variable | Description |
+| ------ | ------ |
 | -t | TCP |
 | -u | UDP |
 | -l | Show only listening sockets. |
