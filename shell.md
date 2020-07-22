@@ -1,5 +1,21 @@
 # Shell
 ## Commomly used commands
+### rsync
+A fast, versatile, remote (and local) file-copying tool
+| Variable | Description |
+| ------ | ------ |
+| -P | Show progress during transfer, same as --partial --progress |
+| -a | Archive mode. This is equivalent to -rlptgoD. It is a quick way of saying you want recursion and want to preserve almost everything, same as --archive |
+| -v | This option increases the amount of information you are given during the transfer. 
+| -e | This option allows you to choose an alternative remote shell program to use for communication between the local and remote copies of rsync. Typically, rsync        is configured to use ssh by default, but you may prefer to use rsh on a local network. 
+| -r | This tells rsync to copy directories recursively, same as --recursive |
+```sh
+$ rsync -Pav -e "ssh -i $keypath username@hostname:/fromdir /todir
+```
+
+
+                          
+
 ### netstat
 Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
 | Variable | Description |
