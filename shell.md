@@ -1,7 +1,7 @@
 # Shell
 ## Commomly used commands
 ### arp-scan 
-The ARP scanner and can be used to scan the duplicate Ips on the local network
+The ARP scanner and can scan the duplicate ips on the local network
 ```sh
 $ arp-scan --interface=eth0 --localnet
 ```
