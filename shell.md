@@ -1,5 +1,11 @@
 # Shell
 ## Commomly used commands
+### arp-scan 
+The ARP scanner and can be used to scan the duplicate Ips on the local network
+```sh
+$ arp-scan --interface=eth0 --localnet
+```
+
 ### rsync
 A fast, versatile, remote (and local) file-copying tool
 | Variable | Description |
