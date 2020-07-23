@@ -12,4 +12,4 @@ git push origin newbranchname:newbranchname
 
 git checkout master
 git branch -D removetokyo42ci
-```sh
+```
