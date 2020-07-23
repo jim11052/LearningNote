@@ -1,2 +1,4 @@
 ### Sign last commit 
-git commit --amend --signoff
+```sh
+$ git commit --amend --signoff
+```
