@@ -14,13 +14,13 @@ $ systemctl stop slurmd
 $ cd tmp
 $ wget https://download.schedmd.com/slurm/slurm-19.05.7.tar.bz2
 $ tar -jvxf slurm-19.05.7.tar.bz2
-$ cd slurm-19.05.7;
+$ cd slurm-19.05.7
 $ ./configure --prefix=/usr 
 $ make 
 $ make install
 
-$systemctl restart munge;
-$systemctl restart slurmd;
+$systemctl restart munge
+$systemctl restart slurmd
 ```
 
 # Reference
