@@ -14,3 +14,7 @@ git push origin "new-branch-name":"new-branch-name"
 git checkout master
 git branch -D "new-branch-name"
 ```
+### Submodule
+```sh
+git submodule —init —recursive
+```
