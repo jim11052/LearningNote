@@ -8,8 +8,10 @@ Compared with Pexpect, the encapsulation level is higher.
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.MissingHostKeyPolicy())
 
-###### MissingHostKeyPolicy()
-Interface for defining the policy that SSHClient should use when the SSH server’s hostname is not in either the system host keys or the application’s keys. Pre-made classes implement policies for automatically adding the key to the application’s HostKeys object (AutoAddPolicy), and for automatically rejecting the key (RejectPolicy).
+## MissingHostKeyPolicy() ##
+# Interface for defining the policy that SSHClient should use when the SSH server’s hostname is not in either the system host keys or the application’s keys. 
+# Premade classes implement policies for automatically adding the key to the application’s HostKeys object (AutoAddPolicy), 
+# and for automatically rejecting the key RejectPolicy).
 
 try:
     # connect remote host
@@ -30,3 +32,8 @@ try:
     # close connection
     ssh.close() 
 ```
+
+# Reference
+[Paramiko Documentation][Paramiko]
+
+[Paramiko]: <http://docs.paramiko.org/en/stable/index.html>
