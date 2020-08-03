@@ -10,3 +10,10 @@
  $ apt-get install --reinstall systemd
  ```
 
+## ubnutu 16.04 cannot rotate the screen
+ ```sh
+ $ apt-get remove --purge nvidia*  # if cannot success them remove nvidia*
+ $ sudo add-apt-repository ppa:graphics-drivers/ppa
+ $ sudo apt-get update
+ $ sudo apt-get install nvidia-384
+ ```
