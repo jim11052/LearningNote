@@ -1,5 +1,3 @@
-tail -f remotelogs.log | perl -pe 's/(openvpn|ran)/\e[1;41m$&\e[0m/g'
-
 # Shell
 ## Commomly used commands
 ### arp-scan 
@@ -21,9 +19,6 @@ A fast, versatile, remote (and local) file-copying tool
 $ rsync -Pav -e "ssh -i $keypath username@hostname:/fromdir /todir
 ```
 
-
-                          
-
 ### netstat
 Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
 | Variable | Description |
@@ -35,6 +30,17 @@ Print network connections, routing tables, interface statistics, masquerade conn
 | -p | Show the PID and name of the program to which each socket belongs. |
 ```sh
 $ netstat -tulnp
+```
+
+### perl
+Practical Extraction and Report Language
+| Variable | Description |
+| ------ | ------ |
+| -n | causes perl to assume the following loop around your script, which makes it iterate over filename arguments somewhat like "sed -n" or awk. |
+| -p | causes perl to assume the following loop around  yourscript, which makes it iterate over filename arguments somewhat like sed. |
+| -e | commandline, may be used to enter one line of script. |
+```sh
+$ tail -f `filename` | perl -pe 's/`pattern`/\e[1;41m$&\e[0m/g'
 ```
 
 ## Shell Script useful special variables
