@@ -52,10 +52,17 @@ $ netstat -tulnp
 | > /dev/null 2>&1 | `2` refers to the second file descriptor of the process, i.e. stderr.  `>` means redirection. `&1` means the target of the redirection should be the same location as the first file descriptor, i.e. stdout. |
 
 # Bash color 
-| Regular Colors | ------ | Bold | ------ |
-| ------         | ------ | ------ | ------ |
-| Value | Color | Value | Color |
-| `\e[0;33m` | Black | `\e[0;33m`	| Black |
+| Regular Colors |        | Bold       |        | Background |        |
+| ------         | ------ | ------     | ------ | ------     | ------ |
+| Value          | Color  | Value      | Color  | Value      | Color  |
+| `\e[0;30m`     | Black  | `\e[1;30m` | Black  | `\e[40m`   | Black  |
+| `\e[0;31m`     | Red    | `\e[1;31m` | Red    | `\e[41m`   | Red    |
+| `\e[0;32m`     | Green  | `\e[1;32m` | Green  | `\e[42m`   | Green  |
+| `\e[0;33m`     | Yellow | `\e[1;33m` | Yellow | `\e[43m`   | Yellow |
+| `\e[0;34m`     | Blue   | `\e[1;34m` | Blue   | `\e[44m`   | Blue   |
+| `\e[0;35m`     | Purple | `\e[1;35m` | Purple | `\e[45m`   | Purple |
+| `\e[0;36m`     | Cyan   | `\e[1;36m` | Cyan   | `\e[46m`   | Cyan   |
+| `\e[0;37m`     | White  | `\e[1;37m` | White  | `\e[47m`   | White  |
 
 
 # Reference
