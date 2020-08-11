@@ -52,8 +52,8 @@ $ netstat -tulnp
 | > /dev/null 2>&1 | `2` refers to the second file descriptor of the process, i.e. stderr.  `>` means redirection. `&1` means the target of the redirection should be the same location as the first file descriptor, i.e. stdout. |
 
 # Bash color 
-| Regular Colors | Bold |
-| ------ | ------ |
+| Regular Colors | ------ | Bold | ------ |
+| ------         | ------ | ------ | ------ |
 | Value | Color | Value | Color |
 | `\e[0;33m` | Black | `\e[0;33m`	| Black |
 
