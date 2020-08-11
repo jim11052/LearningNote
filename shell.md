@@ -1,3 +1,5 @@
+tail -f remotelogs.log | perl -pe 's/(openvpn|ran)/\e[1;41m$&\e[0m/g'
+
 # Shell
 ## Commomly used commands
 ### arp-scan 
@@ -48,6 +50,12 @@ $ netstat -tulnp
 | $! | The process ID of the last background command. |
 | $_ | The last argument of the previous command |
 | > /dev/null 2>&1 | `2` refers to the second file descriptor of the process, i.e. stderr.  `>` means redirection. `&1` means the target of the redirection should be the same location as the first file descriptor, i.e. stdout. |
+
+# Bash color 
+| Regular Colors      | Bold                 |
+| Value      | Color  | Value        | Color |
+| `\e[0;33m` | Black  | `\e[0;33m`	 | Black |
+
 
 # Reference
 [LINUX SHELL PROGRAMMING : SPECIAL VARIABLES][SV]
