@@ -14,21 +14,15 @@ $ docker run --rm -it -v /srv/gitlab-runner/config:/etc/gitlab-runner gitlab/git
 ```
 
 #### Docker insecure registries
-
-
-
-# Reference
-[Run GitLab Runner in a container][GR]
 ```sh
 $ touch /etc/docker/daemon.json 
-```
-```json
 {
     "insecure-registries" : ["registry.gitlab.kronostoken.com"]
 }
 ```
 
 
-
+# Reference
+[Run GitLab Runner in a container][GR]
 
 [GR]: <https://docs.gitlab.com/runner/install/docker.html>
