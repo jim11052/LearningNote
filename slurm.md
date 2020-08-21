@@ -8,7 +8,7 @@ $ sacctmgr show qos format=name,MaxJobsAccruePerAccount,MaxSubmitJobsPerAccount
 # modify slurm accounting qos (ex: qos name = normal)
 $ sacctmgr modify qos [qos name] set MaxJobsAccruePerAccount=[number]
 ```
-# Slurm Upgrade to 19.05.7
+## Slurm Upgrade to 19.05.7
 ```sh
 $ systemctl stop slurmd
 $ cd tmp
