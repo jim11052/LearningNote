@@ -1,4 +1,7 @@
 # Slurm
+
+update `cluster_table` set `control_host`="ip" where name="cluster"
+
 ## sacctmgr
 
 #### QOS
