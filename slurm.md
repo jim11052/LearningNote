@@ -1,4 +1,7 @@
 # Slurm
+
+https://slurm.schedmd.com/SLUG19/Priority_and_Fair_Trees.pdf
+https://slurm.schedmd.com/slurm_ug_2011/Basic_Configuration_Usage.pdf
 ## squeue 
 ```sh
 $ squeue --format='%.18i %.9P %.20j %.8u %.2t %.10M %.6D %R %x %Q %y' --sort=-Q
