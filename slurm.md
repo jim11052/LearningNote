@@ -4,6 +4,7 @@
  - https://slurm.schedmd.com/slurm_ug_2011/Basic_Configuration_Usage.pdf
  - https://slurm.schedmd.com/reservations.html
  - https://slurm.schedmd.com/SLUG16/FederatedScheduling.pdf
+ - https://slurm.schedmd.com/federation.html
 ## squeue 
 ```sh
 $ squeue --format='%.18i %.9P %.20j %.8u %.2t %.10M %.6D %R %x %Q %y' --sort=-Q
