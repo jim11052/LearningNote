@@ -1,9 +1,15 @@
 # Slurm
-
-update `cluster_table` set `control_host`="ip" where name="cluster"
+## squeue 
+```sh
+squeue --format='%.18i %.9P %.20j %.8u %.2t %.10M %.6D %R %x %Q %y' --sort=-Q
+```
 
 ## sacctmgr
-
+#### Add account and user 
+```sh
+sacctmgr -i add account 'account_name' description=`account description` Organization=`organization`
+sacctmgr -i create user `user_name` account=`account_name` adminlevel=None
+```
 #### QOS
 ```sh
 # show slurm accounting qos
