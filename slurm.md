@@ -5,6 +5,7 @@
  - https://slurm.schedmd.com/reservations.html
  - https://slurm.schedmd.com/SLUG16/FederatedScheduling.pdf
  - https://slurm.schedmd.com/federation.html
+ - https://slurm.schedmd.com/sprio.html
 ## squeue 
 ```sh
 $ squeue --format='%.18i %.9P %.20j %.8u %.2t %.10M %.6D %R %x %Q %y' --sort=-Q
