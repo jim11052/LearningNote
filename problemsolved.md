@@ -1,5 +1,9 @@
 # Problems Solved
-
+## systemctl dead
+ ```sh
+ $ systemctl --force reboot
+ ```
+ 
 ## ssh login hang because og systemd-logind dead 
  - Try to restart the systemd-logind
  ```sh
