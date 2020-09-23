@@ -1,4 +1,9 @@
 # Problems Solved
+## freeze at login screen but ssh still can login
+ ```sh
+ $ /etc/init.d/lightdm restart
+ ```
+
 ## systemctl dead
  ```sh
  $ systemctl --force reboot
