@@ -1,4 +1,10 @@
 # Problems Solved
+## block usb inserting
+ ```sh
+ $ echo "install usb-storage /bin/true" > /etc/modprobe.d/usb-storage.conf
+ $ reboot
+ ```
+ 
 ## freeze at login screen but ssh still can login
  ```sh
  $ /etc/init.d/lightdm restart
