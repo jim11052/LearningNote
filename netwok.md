@@ -1,3 +1,6 @@
+
+while nc -zvw10 8.8..8 53; do sleep 0.1; done
+
 sudo tcpdump host 172.31.40.114 -w 1a.pcap
 
 wireshark filter tcp.flags.syn==1 and ip.addr==172.31.40.114
