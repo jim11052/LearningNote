@@ -1,4 +1,7 @@
 # Problems Solved
+http://thushw.blogspot.com/2010/11/mysql-deadlocks-with-concurrent-inserts.html
+
+
 ## block usb inserting
  ```sh
  $ echo "install usb-storage /bin/true" > /etc/modprobe.d/usb-storage.conf
