@@ -23,20 +23,19 @@ $ touch /etc/docker/daemon.json
     }
 
 #### Use Docker socket binding
-```
-[[runners]]
-  url = "https://gitlab.com/"
-  token = REGISTRATION_TOKEN
-  executor = "docker"
-  [runners.docker]
-    tls_verify = false
-    image = "docker:19.03.12"
-    privileged = false
-    disable_cache = false
-    volumes = ["/var/run/docker.sock:/var/run/docker.sock", "/cache"]   # make the CI-container created by gitlab runner can use local docker engine
-  [runers.cache]
-    Insecure = false
-```
+
+    [[runners]]
+      url = "https://gitlab.com/"
+      token = REGISTRATION_TOKEN
+      executor = "docker"
+      [runners.docker]
+        tls_verify = false
+        image = "docker:19.03.12"
+        privileged = false
+        disable_cache = false
+        volumes = ["/var/run/docker.sock:/var/run/docker.sock", "/cache"]   # make the CI-container created by gitlab runner can use local docker engine
+      [runers.cache]
+        Insecure = false
 
 # Reference
 [Run GitLab Runner in a container][GR]
