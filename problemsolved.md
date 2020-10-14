@@ -18,7 +18,7 @@ http://thushw.blogspot.com/2010/11/mysql-deadlocks-with-concurrent-inserts.html
  $ systemctl --force reboot
  ```
  
-## ssh login hang because og systemd-logind dead 
+## ssh login hang because of systemd-logind dead 
  - Try to restart the systemd-logind
  ```sh
  $ systemctl restart systemd-logind
