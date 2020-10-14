@@ -1,7 +1,7 @@
 # Problems Solved
 
 ## mysql deadlocks with concurrent inserts
-sort the unique key by alphabetical order before insert<br>
+sort the unique key by alphabetical order before insert <br>
 [mysql deadlocks with concurrent inserts][MDWCI]
 
 
