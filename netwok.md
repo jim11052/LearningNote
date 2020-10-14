@@ -23,6 +23,6 @@ dump traffic on a network
     tcpdump host [hostname or ip] -w [file.pcap]
   
 ### wireshark filter
-`tcp.flags==0x12` looks for SYN/ACK packets (you could also use `tcp.flags.syn==1 and tcp.flags.ack==1`, or, if you want SYN and SYN/ACK, use `tcp.flags.syn==1 or (tcp.flags.syn==1 and tcp.flags.ack==1)`.
+`tcp.flags==0x12` looks for SYN/ACK packets (you could also use `tcp.flags.syn==1 and tcp.flags.ack==1`, or if you want SYN and SYN/ACK, use `tcp.flags.syn==1 or (tcp.flags.syn==1 and tcp.flags.ack==1)`.
 
     tcp.flags.syn==1 and ip.addr==[ip address]
