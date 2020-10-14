@@ -16,11 +16,12 @@ $ docker run --rm -it -v /srv/gitlab-runner/config:/etc/gitlab-runner gitlab/git
 #### Docker insecure registries
 ```sh
 $ touch /etc/docker/daemon.json 
--------------------------------
-{
-    "insecure-registries" : ["registry.gitlab.kronostoken.com"]
-}
 ```
+
+    {
+        "insecure-registries" : ["registry.gitlab.kronostoken.com"]
+    }
+
 #### Use Docker socket binding
 ```
 [[runners]]
