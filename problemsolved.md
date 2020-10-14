@@ -1,5 +1,8 @@
 # Problems Solved
-http://thushw.blogspot.com/2010/11/mysql-deadlocks-with-concurrent-inserts.html
+
+## mysql deadlocks with concurrent inserts
+sort the unique key by alphabetical order before insert 
+[mysql deadlocks with concurrent inserts][MDWCI]
 
 
 ## block usb inserting
@@ -35,3 +38,5 @@ http://thushw.blogspot.com/2010/11/mysql-deadlocks-with-concurrent-inserts.html
  $ sudo apt-get update
  $ sudo apt-get install nvidia-384
  ```
+ 
+[MDWCI]: <http://thushw.blogspot.com/2010/11/mysql-deadlocks-with-concurrent-inserts.html>
