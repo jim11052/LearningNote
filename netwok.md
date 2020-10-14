@@ -1,5 +1,16 @@
+### netcat 
+netcat is a simple unix utility which reads and writes data across network connections, using TCP or UDP protocol.
+#### nc \[-options\] hostname port\[s\] \[ports\] 
+| Variable | Description |
+| ------ | ------ |
+| -z | zero-I/O mode \[used for scanning\] |
+| -v | verbose \[use twice to be more verbose\] |
+| -w secs | timeout for connects and final net reads |
 
-while nc -zvw10 8.8..8 53; do sleep 0.1; done
+- test connection
+```sh
+nc -zvw 10 8.8..8 53 
+```
 
 sudo tcpdump host 172.31.40.114 -w 1a.pcap
 
