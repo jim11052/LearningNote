@@ -56,3 +56,5 @@ Escaping Markdown characters with a backslash ```\```.
 
 ### Embedding HTML
 Markdown also just supports plain old HTML. It can be simply written in regular HTML whatever you want.
+
+[ref]: <https://ghost.org/changelog/markdown/>
