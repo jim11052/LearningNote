@@ -19,7 +19,7 @@ git branch -D `new-branch-name`
 
 ### Submodule
 ```sh
-git submodule —init —recursive
+git submodule update --init --recursive
 ```
 
 ### Modify commit if alerady pushed 
