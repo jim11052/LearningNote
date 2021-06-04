@@ -18,6 +18,7 @@ https://docs.gitlab.com/ee/raketasks/backup_restore.html#restore-gitlab
 4. `tshark -r jimtest.pcap -Y "tcp.analysis.retransmission" -Tfields -e ip.src -e ip.dst`
 5. `ip ru`
 6. `ip r show table`
+7. http://linux.vbird.org/linux_server/0230router.php
 
 ##### Fortinet site to site 
 1. https://www.askasu.idv.tw/index.php/2009/05/17/493/
