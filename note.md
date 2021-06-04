@@ -1,3 +1,9 @@
+##### LDAP 
+https://blog.xuite.net/towns/hc/81677540-LDAP+%E5%AE%89%E8%A3%9D%E3%80%81%E8%A8%AD%E5%AE%9A%E3%80%81%E7%AE%A1%E7%90%86+
+
+##### GRAFANA
+https://grafana.com/docs/grafana/latest/administration/configuration/
+
 ##### hpc 
 1. https://www.delltechnologies.com/asset/en-us/products/ready-solutions/briefs-summaries/ready-bundles-for-hpc-storage-solution-overview.pdf
 2. 
