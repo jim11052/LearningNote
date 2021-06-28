@@ -38,5 +38,16 @@ sort the unique key by alphabetical order before insert <br>
  $ sudo apt-get update
  $ sudo apt-get install nvidia-384
  ```
+
+## passwd fail to change password on ldap
+```sh
+[error] :
+ passwd: Authentication information cannot be recovered
+ passwd: password unchanged
+[solution] :
+ # remove use_authtok in /etc/pam.d/common-password
+ # password    [success=1 user_unknown=ignore default=die] pam_ldap.so use_authtok try_first_pass
+ password    [success=1 user_unknown=ignore default=die] pam_ldap.so try_first_pass
+```
  
 [MDWCI]: <http://thushw.blogspot.com/2010/11/mysql-deadlocks-with-concurrent-inserts.html>
